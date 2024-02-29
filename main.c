@@ -3,7 +3,7 @@
 /**
  *main - Simple Shell main function
  *@ac: Argument's count
- *@av: Args
+ *@argv: Args
  *
  *Return: 0
  */
@@ -28,7 +28,6 @@ int main(int ac, char **argv)
 		command = token_handler(line);
 		if (!command)
 			continue;
-		
 
 		status = _execute(command, argv);
 	}
