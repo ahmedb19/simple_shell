@@ -9,7 +9,7 @@
 
 char **token_handler(char *line)
 {
-	char *token = NULL, tmp = NULL;
+	char *token = NULL, *tmp = NULL;
 	char **cmd = NULL;
 	int i = 0, j = 0;
 

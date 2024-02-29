@@ -12,7 +12,7 @@
 #include <fcntl.h>
 
 #define DLM " \t\n"
-extern char **env;
+extern char **environ;
 
 char *read_line(void);
 char **token_handler(char *line);
