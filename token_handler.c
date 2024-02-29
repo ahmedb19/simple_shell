@@ -1,12 +1,5 @@
 #include "shell.h"
 
-/**
- *token_handler - handles strings
- *@line: String
- *
- *Return: Double ptr
- */
-
 char **token_handler(char *line)
 {
 	char *token = NULL, tmp = NULL;
