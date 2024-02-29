@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- *exec - executes commands
+ *execute - executes commands
  *@cmd: Command
  *@argv: Array of Args
  *
@@ -20,6 +20,7 @@ int _execute(char **cmd, char **argv)
 		{
 			perror(argv[0]);
 			freearr(cmd);
+			exit(0);
 		}
 	}
 	else

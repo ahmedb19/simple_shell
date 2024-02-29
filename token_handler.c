@@ -15,7 +15,7 @@ char **token_handler(char *line)
 
 	if (!line)
 		return (NULL);
-	
+
 	tmp = _strdup(line);
 	token = strtok(tmp, DLM);
 	if (token == NULL)
