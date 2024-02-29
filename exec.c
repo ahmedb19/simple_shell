@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- *execute - executes commands
+ *_execute - executes commands
  *@cmd: Command
  *@argv: Array of Args
  *
- *Return:
+ *Return: Status
  */
 
 int _execute(char **cmd, char **argv)
